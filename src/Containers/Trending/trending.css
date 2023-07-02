@@ -1,0 +1,12 @@
+.trending {
+    padding: 2rem;
+    background-color: #e9ece9;
+    margin-bottom: 1rem;
+}
+.trending__title {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    grid-auto-rows: auto;
+    grid-gap: 4rem;
+    background-color: #e9ece9;
+}
