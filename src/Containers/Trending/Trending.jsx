@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {SingleContent} from '../../Components';
 import './trending.css';
+import { MY_API_KEY } from '../../config';
 
 const Trending = () => {
 
@@ -10,7 +11,7 @@ const Trending = () => {
   const options = {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': '948f93dbb5msh58a999ff815575bp110743jsn1cb4c7c96e01',
+      'X-RapidAPI-Key': MY_API_KEY,
       'X-RapidAPI-Host': 'latest-anime-api.p.rapidapi.com'
     }
   };

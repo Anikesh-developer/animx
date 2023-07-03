@@ -15,17 +15,15 @@
     width: 20vw;
 }
 .singlecontent__content-img img {
-    width: 10vw;
-    height: 35vh;
+    width: 15vw;
+    height: 40vh;
     padding-bottom: 2rem;
-    border-radius: 20px;
 }
 .singlecontent__content:hover {
-    border-radius: 15px;
     background: rgba(255, 255, 255, 0.06);
     border: none;
     outline: none;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 3px 3px 5px black;
     border-left: 1px solid rgba(255, 255, 255, .3);
     border-top: 1px solid rgba(255, 255, 255, .3);
