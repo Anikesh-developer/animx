@@ -1,0 +1,16 @@
+* {
+    background-color: #e9ece9;
+}
+.toprated__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+.toprated__header-content {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    grid-auto-rows: auto;
+    grid-gap: 4rem;
+}

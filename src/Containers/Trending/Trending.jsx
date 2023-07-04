@@ -30,6 +30,7 @@ const Trending = () => {
 
   return (
     <div className='trending'>
+      <h1 className='trending__heading'>Latest Anime</h1>
       <div className="trending__title">
       { 
         content && content?.map((c) => <SingleContent key={c.anime_id} id={c.anime_id} url={c.img_url} title={c.name} /> )

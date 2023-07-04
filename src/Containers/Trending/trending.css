@@ -11,3 +11,10 @@
     grid-row-gap: 2rem;
     background-color: #e9ece9;
 }
+.trending__heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    color: black;
+}

@@ -1,20 +1,18 @@
 import React from "react";
 import {Navbar , Trending} from './Containers';
 import {BrowserRouter , Route , Routes} from 'react-router-dom';
+import {TopRated} from './Top Rated';
 import './App.css';
-import { DetailPage } from "./Components";
 
 function App() {
   return (
-    <div className="App">
-        <Navbar />
-        <Trending />
-      {/* <BrowserRouter>
-        <Routes >
-          <Route path="/:id" element={<DetailPage />} ></Route>
-        </Routes >
-      </BrowserRouter> */}
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Routes><Route path="/" Component={Navbar}></Route></Routes>
+        <Routes><Route path="/" Component={Trending}></Route></Routes>
+        <Routes><Route path="toprated" Component={TopRated}></Route></Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

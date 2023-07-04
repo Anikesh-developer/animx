@@ -1,2 +1,2 @@
 export {default as SingleContent} from './SingleContent/SingleContent';
-export {default as DetailPage} from './DetailPage/DetailPage';
+export {default as Detail} from './Detail/Detail';

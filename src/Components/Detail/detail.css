@@ -1,0 +1,14 @@
+.detail__content-title {
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.detail__content-img img {
+    width: 20vw;
+    height: 50vh;
+}
+.detail__content-subtitle {
+    overflow: hidden;
+    text-overflow: clip;
+}

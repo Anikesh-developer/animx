@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './navbar.css';
 
 const Navbar = () => {
@@ -15,7 +16,7 @@ const Navbar = () => {
           <ul className='navbar__content-menulist'>
             <li id='All_Category'>All Category</li>
             <li id='Creators _age'>Creators Page</li>
-            <li id='Contact_Us'>Contact Us</li>
+            <Link to="toprated"><li>Top Rated</li></Link>
           </ul>
         </div>
       </div>
