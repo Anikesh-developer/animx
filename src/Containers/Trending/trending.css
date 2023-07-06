@@ -18,3 +18,17 @@
     margin-top: 3rem;
     color: black;
 }
+.singlecontent__content-uparrow {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
+    border: 2px solid;
+    border-radius: 17px;
+    padding: 4px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.singlecontent__content-uparrow:hover{
+    box-shadow: 10px 10px 5px black;
+}

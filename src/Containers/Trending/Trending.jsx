@@ -2,10 +2,15 @@ import React, { useEffect, useState } from 'react';
 import {SingleContent} from '../../Components';
 import './trending.css';
 import { MY_API_KEY } from '../../config';
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 const Trending = () => {
 
   const[content ,setContent] = useState([]);
+
+  const scrollUp = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 
   const url = 'https://latest-anime-api.p.rapidapi.com/anime';
   const options = {
@@ -35,6 +40,9 @@ const Trending = () => {
       { 
         content && content?.map((c) => <SingleContent key={c.anime_id} id={c.anime_id} url={c.img_url} title={c.name} /> )
       }
+      </div>
+      <div className="singlecontent__content-uparrow">
+        <ArrowUpwardIcon onClick={scrollUp} />
       </div>
     </div>
   )

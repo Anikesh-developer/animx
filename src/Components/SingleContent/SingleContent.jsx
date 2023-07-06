@@ -12,7 +12,7 @@ const SingleContent = ({id,title ,url}) => {
         <div className="singlecontent__content-img" >
           <img src={url} alt='image' />
         </div>
-      </div>
+      </div>  
     </div>
   )
 }

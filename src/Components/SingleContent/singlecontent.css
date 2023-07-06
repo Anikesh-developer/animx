@@ -13,19 +13,13 @@
     align-items: center;
     cursor: pointer;
     margin-top: 3rem;
-    width: 20vw;
 }
 .singlecontent__content-img img {
-    width: 15vw;
-    height: 40vh;
-    padding-bottom: 2rem;
+    width: 20vw;
+    height: 50vh;
+    border-radius: 20px;
+    cursor: pointer;
 }
-.singlecontent__content:hover {
-    background: rgba(255, 255, 255, 0.06);
-    border: none;
-    outline: none;
-    border-radius: 10px;
+.singlecontent__content-img img:hover {
     box-shadow: 3px 3px 5px black;
-    border-left: 1px solid rgba(255, 255, 255, .3);
-    border-top: 1px solid rgba(255, 255, 255, .3);
 }
