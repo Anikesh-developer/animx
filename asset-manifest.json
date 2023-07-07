@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/animx/static/css/main.ebcf3940.css",
+    "main.js": "/animx/static/js/main.3fff9f11.js",
+    "index.html": "/animx/index.html",
+    "main.ebcf3940.css.map": "/animx/static/css/main.ebcf3940.css.map",
+    "main.3fff9f11.js.map": "/animx/static/js/main.3fff9f11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebcf3940.css",
+    "static/js/main.3fff9f11.js"
+  ]
+}
