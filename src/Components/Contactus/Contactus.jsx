@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Creators = () => {
+const Contactus = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Creators = () => {
   )
 }
 
-export default Creators
+export default Contactus

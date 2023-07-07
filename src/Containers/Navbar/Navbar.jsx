@@ -15,8 +15,8 @@ const Navbar = () => {
         <div className="navbar__content-menuitmes">
           <ul className='navbar__content-menulist'>
             <li id='All_Category'>All Category</li>
-            <li id='Creators _age'>Creators Page</li>
-            <Link to="toprated"><li>Top Rated</li></Link>
+            <Link to='/animx/contactus' ><li>Contact Us</li></Link>
+            <Link to="/animx/toprated"><li>Top Rated</li></Link>
           </ul>
         </div>
       </div>
