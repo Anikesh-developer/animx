@@ -24,7 +24,7 @@ const TopRated = () => {
   return (
     <div className='toprated'>
       <h1 className='toprated__header'>Top Rated Anime</h1>
-      <button className='back__button' ><Link to='/'>Back</Link></button>
+      <button className='back__button' ><Link to='/animx'>Back</Link></button>
       <div className="toprated__header-content">
         {
           content && content?.map((c) => <Detail key={c.id} id={c.id} title={c.attributes.titles.en || c.attributes.titles.en_jp} img={c.attributes.posterImage.medium} subtitle={c.attributes.synopsis} start={c.attributes.startDate} end={c.attributes.endDate} ageRating={c.attributes.ageRating} rating={c.attributes.averageRating} />)
