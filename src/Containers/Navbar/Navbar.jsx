@@ -8,9 +8,7 @@ const Navbar = () => {
       <div className="navbar__content">
         <div className="navbar__content-logo">
           <img src='Animx_logo.jpg' alt='' />
-        </div>
-        <div className="navbar__content-title">
-          <h1>AnimX</h1>
+          <h1 className='navbar__content-title'>AnimX</h1>
         </div>
         <div className="navbar__content-menuitmes">
           <ul className='navbar__content-menulist'>
