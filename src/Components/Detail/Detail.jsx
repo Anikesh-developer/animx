@@ -36,7 +36,7 @@ const Detail = ({id, title,img ,subtitle, start ,end, rating ,ageRating }) => {
       </div>
       <div className="detail__content-rate">
         <div className="detail__content-rate__rating">
-          <span>Rating : </span>
+          <span>Vote: </span>
           {rating}
         </div>
         <div className="detail__content-rate__ageRating">

@@ -67,3 +67,12 @@
         font-size: 12px;
     }
 }
+@media screen and (max-width:400px) {
+    .navbar__content-menulist li {
+        font-size:10px ;
+        padding: 5px;
+    }
+    .navbar__content-title {
+        font-size: 10px;
+    }
+}

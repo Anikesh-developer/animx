@@ -37,18 +37,9 @@
         font-size: 8px;
     }
 }
-@media screen and (max-width:650px) {
+@media screen and (max-width:550px) {
     .singlecontent__content-img img {
-        width: 15vw;
-        height:20vh;
-    }
-    .singlecontent__content-title {
-        font-size: 5px;
-    }
-}
-@media screen and (max-width:500px) {
-    .singlecontent__content-img img {
-        width: 20vw;
+        width: 30vw;
     }
     .singlecontent__content-title {
         font-size: 8px;
@@ -57,7 +48,7 @@
 @media screen and (max-width:400px) {
     .singlecontent__content-img img {
         width: 30vw;
-        height: 25vh;
+        height: 18vh;
     }
     .singlecontent__content-title {
         font-size: 6px;
