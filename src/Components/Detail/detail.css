@@ -57,7 +57,7 @@
 }
 .subtitle {
     font-size: 12px;
-    font-weight: 200;
+    font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     line-height: 20px;
     letter-spacing: 1px;
@@ -104,6 +104,7 @@
     }
     .subtitle {
         font-size: 10px;
+        font-weight: 500;
     }
     .button {
         font-size: 10px;
