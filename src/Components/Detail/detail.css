@@ -66,6 +66,7 @@
     margin-top: 1rem;
     padding: 10px;
     border-radius: 15px;
+    font-size: 14px;
 }
 .button:hover{
     background-color: black;
@@ -86,10 +87,26 @@
     .detail__content-img img {
         height:30vh ;
     }
+    .model-container {
+        min-width: 30rem;
+    }
 }
 @media screen and (max-width:550px) {
     .detail__content-img img {
         width: 30vw;
+    }
+    .model-container {
+        min-width: 25rem;
+        padding: 2rem;
+    }
+    .header {
+        font-size: 15px;
+    }
+    .subtitle {
+        font-size: 10px;
+    }
+    .button {
+        font-size: 10px;
     }
     .detail__content-title {
         font-size: 8px;
@@ -101,10 +118,31 @@
         font-size: 12px;
     }
 }
+@media screen and (max-width:420px) {
+    .model-container {
+        min-width: 17rem;
+        padding: 8px;
+    }
+}
 @media screen and (max-width:320px) {
     .detail__content-img img {
         width: 30vw;
         height: 20vh;
+    }
+    .model-container {
+        min-width: 14rem;
+        padding: 15px;
+    }
+    .header {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    .subtitle {
+        font-size: 8px;
+    }
+    .button {
+        font-size: 8px;
+        margin-top: 5px;
     }
     .detail__content-title {
         font-size: 5px;

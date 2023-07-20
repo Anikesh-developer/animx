@@ -52,6 +52,9 @@
     }
 }
 @media screen and (max-width:320px) {
+    .toprated__header {
+        font-size: 20px;
+    }
     .toprated__header-content {
         font-size:10px;
     }

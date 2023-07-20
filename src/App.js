@@ -12,7 +12,7 @@ function App() {
         <Routes><Route path="/animx" Component={Navbar}></Route></Routes>
         <Routes><Route path="/animx" Component={Trending}></Route></Routes>
         <Routes><Route path="/animx/toprated" Component={TopRated}></Route></Routes>
-        {/* <Routes><Route path="/animx/contactus" Component={Contactus}></Route></Routes> */}
+        <Routes><Route path="/animx/contactus" Component={Contactus}></Route></Routes>
       </div>
     </BrowserRouter>
   );
