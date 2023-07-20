@@ -4,6 +4,7 @@
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    font-size: 25px;
 }
 .contactus__form-inputs {
     display: flex;
@@ -31,4 +32,23 @@ input , textarea {
 }
 input:hover , textarea:hover {
     box-shadow: 3px 3px 5px black;
+}
+@media screen and (max-width:1050px) {
+    .contactus__title {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:650px) {
+    .contactus__title {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:300px) {
+    .contactus__title {
+        font-size: 10px;
+    }
+    input , textarea {
+        font-size: 10px;
+        padding: 0 10px;
+    }
 }
