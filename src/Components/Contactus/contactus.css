@@ -1,3 +1,34 @@
-.contactus {
-    background: rgba(189, 189, 189, 0.95);
+.contactus__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.contactus__form-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+input , textarea {
+    margin-bottom: 5px;
+    line-height: 27px;
+    padding: 0 1rem;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#button:hover {
+    box-shadow: 3px 3px 5px black;
+    color: white;
+    background: black;
+}
+input:hover , textarea:hover {
+    box-shadow: 3px 3px 5px black;
 }
