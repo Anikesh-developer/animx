@@ -41,8 +41,10 @@ const Trending = () => {
         content && content?.map((c) => <SingleContent key={c.anime_id} id={c.anime_id} url={c.img_url} title={c.name} /> )
       }
       </div>
-      <div className="singlecontent__content-uparrow">
-        <ArrowUpwardIcon onClick={scrollUp} />
+      <div className='uparrow'>
+        <div className="singlecontent__content-uparrow">
+          <ArrowUpwardIcon onClick={scrollUp} />
+        </div>
       </div>
     </div>
   )

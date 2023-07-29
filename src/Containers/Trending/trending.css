@@ -1,7 +1,6 @@
 .trending {
-    padding: 2rem;
+    padding: 1rem;
     background-color: #e9ece9;
-    margin-bottom: 1rem;
 }
 .trending__title {
     display: grid;
@@ -19,6 +18,9 @@
     color: black;
     font-size: 30px;
 }
+.uparrow {
+    padding-bottom: 3rem;
+}
 .singlecontent__content-uparrow {
     cursor: pointer;
     position: absolute;
@@ -27,12 +29,14 @@
     border: 2px solid;
     border-radius: 17px;
     padding: 4px;
-    margin-top: 2px;
+    margin-top: 5px;
+    transition: all 0.5s ease-in-out;
 }
 .singlecontent__content-uparrow:hover{
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 3px 3px 5px black;
+    transform: scale(1.01);
 }
-@media screen and (max-width:850px) {
+@media screen and (max-width:900px) {
     .trending__title {
         grid-template-columns: repeat(3, 1fr); 
         grid-gap: 1rem;       

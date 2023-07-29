@@ -23,20 +23,26 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
 }
+/* .active {
+    background: black;
+    color: white;
+    border-radius: 60px;
+} */
 .navbar__content-menulist {
     display: flex;
     list-style-type: none;
     margin-right: 4rem;
+    gap: 4px;
 }
 .navbar__content-menulist li {
-    padding: 1rem;
+    padding: 10px;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 }
 .navbar__content-menulist li:hover {
     border-radius: 60px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.651);
     color: white;
 }
 .navbar__content-menulist a {
@@ -52,6 +58,9 @@
     }
 }
 @media screen and (max-width:650px) {
+    .navbar__content-logo img {
+        width: 10vw;
+    }
     .navbar__content-title {
         font-size:15px;
     }
@@ -69,8 +78,8 @@
 }
 @media screen and (max-width:400px) {
     .navbar__content-menulist li {
-        font-size:10px ;
-        padding: 5px;
+        font-size:8px ;
+        padding: 4px;
     }
     .navbar__content-title {
         font-size: 10px;
