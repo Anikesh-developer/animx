@@ -34,6 +34,7 @@
 @media screen and (max-width:550px) {
     .singlecontent__content-img img {
         width: 40vw;
+        height: 40vh;
     }
 }
 @media screen and (max-width:400px) {
