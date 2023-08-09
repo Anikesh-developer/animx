@@ -35,9 +35,6 @@ input , textarea {
     color: white;
     background: black;
 }
-input:hover , textarea:hover {
-    box-shadow: 3px 3px 5px black;
-}
 @media screen and (max-width:1050px) {
     .contactus__title {
         font-size: 20px;

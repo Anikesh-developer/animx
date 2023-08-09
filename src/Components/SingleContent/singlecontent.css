@@ -38,6 +38,9 @@
     }
 }
 @media screen and (max-width:400px) {
+    .singlecontent__content {
+        margin-top: 1rem;
+    }
     .singlecontent__content-title {
         font-size: 6px;
     }

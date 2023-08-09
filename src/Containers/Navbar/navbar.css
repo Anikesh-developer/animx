@@ -1,12 +1,15 @@
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #e9ece9;
     position: fixed;
     width: 100vw;
 }
 .navbar__content{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 10rem;
 }
 .navbar__content-logo {
     display: flex;
@@ -16,70 +19,148 @@
 }
 .navbar__content-logo img {
     width: 7vw;
-    margin: 0.5rem;
     cursor: pointer;
 }
 .navbar__content-title {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
 }
-/* .active {
-    background: black;
-    color: white;
-    border-radius: 60px;
-} */
-.navbar__content-menulist {
+.navbar__searchbtn {
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 15px;
     display: flex;
-    list-style-type: none;
-    margin-right: 4rem;
-    gap: 4px;
+    align-items: center;
+    margin-right: 2rem;
+    transition: all 1s ease-in-out;
 }
-.navbar__content-menulist li {
+.navbar__searchbtn-input{
+    margin-bottom: 0px;
+    line-height: 0px;
+    padding: 0 ;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    outline: none;
+}
+.navbar__searchbtn:hover{
+    box-shadow: 3px 3px 5px black ;
+    transform: scale(1.01);
+}
+.navbar__searchbtn input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 0;
+    font-weight: 500;
+    font-size: 16px;
+    display: none;
+}
+.navbar__searchbtn svg {
+    background-color: white;
+}
+.navbar__content-menuitmes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__content-menuitmes p {
     padding: 10px;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 }
-.navbar__content-menulist li:hover {
+.navbar__content-menuitmes p:hover {
     border-radius: 60px;
     background-color: rgba(0, 0, 0, 0.651);
     color: white;
 }
-.navbar__content-menulist a {
+.navbar__searchbtn:hover input {
+    display: flex;
+    width: 100px;
+}
+.navbar__content-menuitmes a {
     text-decoration: none;
     color: black;
 }
-@media screen and (max-width:1000px) {
+/* Mobile Menu */
+.navbar__menu {
+    display: none;
+    position: relative;
+}
+.navbar__menu svg path {
+    color: black;
+}
+.navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 190px;
+    border-radius: 20px;
+    background-color: #e9ece9e6;
+}
+@media screen and (max-width:1050px) {
+    .navbar__content {
+        gap: 5rem;
+    }
+    .navbar__content-menuitmes p {
+        font-size: 15px;
+        padding: 5px;
+    }
     .navbar__content-title {
         font-size: 20px;
     }
-    .navbar__content-menulist li {
-        font-size: 15px;
-    }
 }
 @media screen and (max-width:650px) {
+    .navbar__menu {
+        display: flex;
+        margin-right: 2rem;
+    }
+    .navbar__content-menuitmes {
+        display: none;
+    }
+    .navbar-menu_container-links p {
+        padding: 10px;
+        cursor: pointer;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+    .navbar-menu_container-links a {
+        text-decoration: none;
+        color: black;
+    }
+    .navbar-menu_container-links p:hover {
+        border-radius: 60px;
+        background-color: rgba(0, 0, 0, 0.651);
+        color: white;
+    }
+    .navbar__searchbtn {
+        padding: 5px 10px;
+        margin-right: 0;
+    }
+    .navbar__searchbtn input {
+        display: flex;
+        width: 100px;
+        font-size: 10px;
+    }
     .navbar__content-logo img {
         width: 10vw;
     }
     .navbar__content-title {
         font-size:15px;
     }
-    .navbar__content-menulist {
-        margin-right: 2rem;
-    }
 }
-@media screen and (max-width:500px) {
-    .navbar__content-menulist {
-        margin-right: 1rem;
-    }
-    .navbar__content-menulist li {
-        font-size: 12px;
-    }
-}
-@media screen and (max-width:400px) {
-    .navbar__content-menulist li {
-        font-size:8px ;
-        padding: 4px;
+@media screen and (max-width:450px) {
+    .navbar__searchbtn{
+        padding: 5px;
     }
     .navbar__content-title {
         font-size: 10px;
