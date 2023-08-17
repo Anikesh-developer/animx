@@ -1,8 +1,8 @@
 import React from "react";
-import {Navbar , Trending} from './Containers';
+import {Navbar , Results, Trending} from './Containers';
 import {BrowserRouter , Route , Routes} from 'react-router-dom';
 import {TopRated} from './Top Rated';
-import { Contactus } from "./Components";
+import { Contactus} from "./Components";
 import './App.css';
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
         <Routes><Route path="/animx" Component={Trending}></Route></Routes>
         <Routes><Route path="/animx/toprated" Component={TopRated}></Route></Routes>
         <Routes><Route path="/animx/contactus" Component={Contactus}></Route></Routes>
+        <Routes><Route path="/animx/:query/:id" Component={Results}></Route></Routes>
       </div>
     </BrowserRouter>
   );

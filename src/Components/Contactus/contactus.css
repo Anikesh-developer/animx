@@ -18,7 +18,7 @@
     flex-direction: column;
     margin: 2rem 0;
 }
-input , textarea {
+#input , textarea {
     margin-bottom: 5px;
     line-height: 27px;
     padding: 0 1rem;
@@ -30,10 +30,18 @@ input , textarea {
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
+#button {
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 #button:hover {
     box-shadow: 3px 3px 5px black;
     color: white;
     background: black;
+}
+#input:hover , textarea:hover {
+    box-shadow: 3px 3px 5px black;
 }
 @media screen and (max-width:1050px) {
     .contactus__title {
