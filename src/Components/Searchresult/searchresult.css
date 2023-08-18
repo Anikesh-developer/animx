@@ -35,22 +35,19 @@
         margin-right: 0;
         margin-top: 0;
         padding: 10px;
+        width: 50vw;
+        align-items: center;
     }
     .searchresult-items {
         font-size: 15px;
         line-height: 20px;
         text-align: center;
+        width: 50vw;
     }
 }
 @media screen and (max-width:600px) {
     .searchresult-items {
         font-size: 12px;
         line-height: 15px;
-        width: 30vw;
-    }
-}
-@media screen and (max-width:450px) {
-    .searchresult-items {
-        width: 25vw;
     }
 }
