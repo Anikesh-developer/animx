@@ -19,7 +19,9 @@
     margin: 1rem;
     padding: 1rem;
     height: 100vh;
-    box-shadow: 3px 3px 5px black;
+}
+.results__content-poster img:hover {
+    box-shadow: 3px 3px 5px black;    
 }
 .results__back-button {
     padding: 5px;
@@ -91,6 +93,7 @@
         width: 90vw;
         margin:0;
         height: 60vh;
+        box-shadow: 3px 3px 5px black;
     }
     .results__content-details h1 {
         width: 95vw;
