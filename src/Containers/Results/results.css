@@ -6,32 +6,30 @@
 .results__content {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 .results__content-poster {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .results__content-poster img {
     width: 40vw;
     margin: 1rem;
     padding: 1rem;
+    height: 100vh;
 }
 .results__content-poster img:hover {
-    box-shadow: 3px 3px 5px black;
-    background: transparent;
+    box-shadow: 3px 3px 5px black;    
 }
 .results__back-button {
     padding: 5px;
     border-radius: 10px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
     transition: all 0.5s ease-in-out;
-    width: 5vw;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 2rem;
     cursor: pointer;
 }
@@ -44,7 +42,6 @@
     box-shadow: 3px 3px 5px black;
 }
 .results__content-details {
-    margin: 1rem;
     padding: 1rem;
     font-family: 'Open Sans', sans-serif;
 }
@@ -52,16 +49,11 @@
     font-size: 30px;
     font-weight: 900;
     padding: 1rem;
-    width: 30vw;
-}
-.results__content-details h1:hover {
-    box-shadow: 3px 3px 10px black;
-    background: transparent;
-    border-radius: 30px;
+    width: 49vw;
 }
 .results__content-details h2 {
     font-size: 20px;
-    line-height: 2rem;
+    line-height: 25px;
     font-weight: 700;
     padding: 1rem;
     padding-top: 2rem;
@@ -69,10 +61,44 @@
 .results__content-rate {
     display: flex;
     font-size: 15px;
-    padding: 1rem;
+    padding: 0 10px;
     justify-content: space-between;
     align-items: center;
 }
 .results__content-rate h3 {
     font-weight: 500;
+}
+@media screen and (max-width:1050px) {
+    .results__content-details h1 {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .results__content-details h2 {
+        font-size: 15px;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width:650px) {
+    .results__content {
+        flex-direction: column;
+    }
+    .results__content-poster {
+        align-items: center;
+    }
+    .results__back-button {
+        margin-left: 0rem;
+        margin-bottom: 10px;
+    }
+    .results__content-poster img {
+        width: 90vw;
+        margin:0;
+        height: 60vh;
+    }
+    .results__content-details h1 {
+        width: 95vw;
+    }
+    .results__content-details h2 {
+        font-size: 12px;
+        padding: 10px;
+    }
 }

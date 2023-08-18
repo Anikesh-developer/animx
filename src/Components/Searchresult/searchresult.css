@@ -46,11 +46,11 @@
     .searchresult-items {
         font-size: 12px;
         line-height: 15px;
-        width: 40vw;
+        width: 30vw;
     }
 }
 @media screen and (max-width:450px) {
     .searchresult-items {
-        width: 30vw;
+        width: 25vw;
     }
 }
