@@ -1,8 +1,6 @@
-* {
-    background-color: #e9ece9;
-}
 .toprated {
     padding: 1rem;
+    background-color: #cbd1cbb9;
 }
 .back__button {
     padding: 5px;
@@ -12,6 +10,7 @@
     margin-bottom: 1rem;
     font-size: 20px;
     transition: all 0.5s ease-in-out;
+    background-color: #abb1ab;
 }
 .back__button a {
     text-decoration: none;

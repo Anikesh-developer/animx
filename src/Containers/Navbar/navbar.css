@@ -2,10 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e9ece9;
+    background-color: #abb1ab;
     position: fixed;
     width: 100vw;
-    z-index: 1;
 }
 .navbar__content{
     display: flex;
@@ -21,6 +20,7 @@
 .navbar__content-logo img {
     width: 7vw;
     cursor: pointer;
+    padding: 5px;
 }
 .navbar__content-title {
     font-family: 'Open Sans', sans-serif;
@@ -74,6 +74,7 @@
     border: none;
     outline: none;
     margin: 0;
+    background-color: #abb1ab;
 }
 /* Mobile Menu */
 .navbar__menu {

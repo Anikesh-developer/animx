@@ -14,7 +14,6 @@
 }
 .singlecontent__content-img img {
     width: 20vw;
-    border-radius: 20px;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
     max-height: 50vh;

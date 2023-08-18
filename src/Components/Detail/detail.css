@@ -13,7 +13,6 @@
 }
 .detail__content-img img {
     width: 20vw;
-    border-radius: 20px;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
     height: 50vh;
@@ -21,7 +20,6 @@
 .detail__content-img img:hover {
     box-shadow: 8px 8px 5px black;
     transform: scale(1.01);
-    z-index: 2;
 }
 .detail__content-date {
     display: flex;
