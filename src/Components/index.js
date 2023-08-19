@@ -3,4 +3,3 @@ export {default as Detail} from './Detail/Detail';
 export {default as Contactus} from './Contactus/Contactus';
 export {default as SearchBar} from './Searchbar/Searchbar';
 export {default as Searchresult} from './Searchresult/Searchresult';
-export {default as SinglePage} from './SinglePage/SinglePage';

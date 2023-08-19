@@ -23,6 +23,7 @@
     background: transparent;
     backdrop-filter: blur(8px);
     width: 16rem;
+    color: white;
 }
 .searchresult-items:hover {
     border-radius: 50px;
