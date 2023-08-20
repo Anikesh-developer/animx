@@ -9,6 +9,10 @@
     font-size: 10px;
     justify-content: center;
     align-items: center;
+    color: #c4dd91;
+}
+.detail__content-title:hover {
+    color: black;
 }
 .detail__content-img img {
     width: 20vw;
@@ -16,7 +20,7 @@
     transition: all 0.5s ease-in-out;
 }
 .detail__content-img img:hover {
-    box-shadow: 8px 8px 5px black;
+    box-shadow: 6px 6px 5px #9ACD32;
     transform: scale(1.01);
 }
 .detail__content-date {
@@ -50,7 +54,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #e9ece9;
+    background-color: #c4dd91;
     padding: 2rem 3rem;
     border-radius: 0.5rem;
 }

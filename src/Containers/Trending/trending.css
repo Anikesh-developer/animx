@@ -1,12 +1,13 @@
 .trending {
     padding: 1rem;
-    background: linear-gradient(90deg, rgba(10, 0, 255, 0.49) 0%, rgba(10, 0, 255, 0.49) 0%, rgba(189, 238, 130, 0.59) 94%);
+    background-color: darkgray;
 }
 .trending__title {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: auto;
     grid-gap: 3rem;
+    color: #9ACD32;
 }
 .trending__heading {
     display: flex;

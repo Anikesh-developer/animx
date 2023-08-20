@@ -23,7 +23,8 @@
     background: transparent;
     backdrop-filter: blur(8px);
     width: 16rem;
-    color: white;
+    letter-spacing: 2px;
+    color: #b2d36d;
 }
 .searchresult-items:hover {
     border-radius: 50px;

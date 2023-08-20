@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    background: linear-gradient(90deg, rgba(10, 0, 255, 0.49) 0%, rgba(10, 0, 255, 0.49) 0%, rgba(189, 238, 130, 0.59) 94%);
+    background-color: darkgray;
 }
 .results__content-poster {
     display: flex;
@@ -22,18 +22,18 @@
     height: 100vh;
 }
 .results__content-poster img:hover {
-    box-shadow: 3px 3px 5px black;    
+    box-shadow: 6px 6px 5px #9ACD32;    
 }
 .results__back-button {
-    padding: 5px;
-    border-radius: 10px;
+    padding: 10px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     transition: all 0.5s ease-in-out;
     margin-top: 1rem;
     margin-left: 2rem;
     cursor: pointer;
-    background-color: rgb(139 135 251);
+    background-color:#9ACD32;
+    font-size: 20px;
 }
 .results__back-button a {
     text-decoration: none;
@@ -95,7 +95,7 @@
         width: 90vw;
         margin:0;
         height: 60vh;
-        box-shadow: 3px 3px 5px black;
+        box-shadow: 3px 3px 5px #9ACD32;
     }
     .results__content-details h1 {
         width: 95vw;
