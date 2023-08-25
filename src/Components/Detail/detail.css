@@ -17,7 +17,7 @@
     transition: all 0.5s ease-in-out;
 }
 .detail__content-img img:hover {
-    box-shadow: 6px 6px 5px #9ACD32;
+    box-shadow: 6px 6px 5px black;
     transform: scale(1.01);
 }
 .detail__content-date {
