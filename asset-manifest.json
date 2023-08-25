@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/animx/static/css/main.502ca64d.css",
+    "main.css": "/animx/static/css/main.2338dc8a.css",
     "main.js": "/animx/static/js/main.c3dbe348.js",
     "index.html": "/animx/index.html",
-    "main.502ca64d.css.map": "/animx/static/css/main.502ca64d.css.map",
+    "main.2338dc8a.css.map": "/animx/static/css/main.2338dc8a.css.map",
     "main.c3dbe348.js.map": "/animx/static/js/main.c3dbe348.js.map"
   },
   "entrypoints": [
-    "static/css/main.502ca64d.css",
+    "static/css/main.2338dc8a.css",
     "static/js/main.c3dbe348.js"
   ]
 }
