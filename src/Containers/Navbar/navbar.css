@@ -96,8 +96,8 @@
     right: 0;
     margin-top: 1rem;
     min-width: 190px;
-    border-radius: 20px;
-    background-color: rgb(216 245 181);
+    border-radius: 5px;
+    background-color: #c9f37c;
 }
 @media screen and (max-width:1050px) {
     .navbar__content {
@@ -136,7 +136,7 @@
     }
     .navbar-menu_container-links a {
         text-decoration: none;
-        color: white;
+        color: black;
     }
     .navbar-menu_container-links p:hover {
         border-radius: 60px;
