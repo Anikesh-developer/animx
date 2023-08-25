@@ -41,6 +41,7 @@
     font-size: 16px;
 }
 .results__back-button:hover {
+    background-color: white;
     box-shadow: 3px 3px 5px black;
 }
 .results__content-details {
@@ -52,13 +53,15 @@
     font-weight: 900;
     padding: 1rem;
     width: 49vw;
+    color: white;
 }
 .results__content-details h2 {
     font-size: 20px;
-    line-height: 25px;
+    line-height: 35px;
     font-weight: 700;
     padding: 1rem;
     padding-top: 2rem;
+    color: white;
 }
 .results__content-rate {
     display: flex;

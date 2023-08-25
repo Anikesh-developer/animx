@@ -16,6 +16,7 @@
     color: black;
 }
 .back__button:hover{
+    background: white;
     transform: scale(1.01);
     box-shadow: 3px 3px 5px black;
 }
@@ -25,7 +26,7 @@
     align-items: center;
     margin-bottom: 2rem;
     font-size: 40px;
-    color: #9ACD32;
+    color: #BAFF39;
 }
 .toprated__header-content {
     display: grid;

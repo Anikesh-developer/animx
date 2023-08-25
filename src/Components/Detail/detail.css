@@ -9,10 +9,7 @@
     font-size: 10px;
     justify-content: center;
     align-items: center;
-    color: #c4dd91;
-}
-.detail__content-title:hover {
-    color: black;
+    color: #BAFF39;
 }
 .detail__content-img img {
     width: 20vw;

@@ -67,7 +67,7 @@
     cursor: pointer;
 }
 .navbar__searchbtn:hover {
-    box-shadow: 3px 3px 5px #9ACD32;
+    box-shadow: 3px 3px 5px #BAFF39;
 }
 .navbar__searchbtn-itmes  {
     border: none;

@@ -12,12 +12,12 @@ const Trending = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
-  const url = 'https://latest-anime-api.p.rapidapi.com/anime';
+  const url = 'https://anime-db.p.rapidapi.com/anime?page=1&size=10&search=Fullmetal&genres=Fantasy%2CDrama&sortBy=ranking&sortOrder=asc';
   const options = {
     method: 'GET',
     headers: {
       'X-RapidAPI-Key': MY_API_KEY,
-      'X-RapidAPI-Host': 'latest-anime-api.p.rapidapi.com'
+      'X-RapidAPI-Host': 'anime-db.p.rapidapi.com'
     }
   };
 
@@ -25,7 +25,7 @@ const Trending = () => {
     async function getData() {
       const response = await fetch(url , options);
       const data = await response.json();
-      setContent(data);
+      setContent(data.data);
     }
     getData();  
     console.log(content)
@@ -38,7 +38,7 @@ const Trending = () => {
       <h1 className='trending__heading'>Trending Anime</h1>
       <div className="trending__title">
       { 
-        content && content?.map((c) => <SingleContent key={c.anime_id} id={c.anime_id} url={c.img_url} title={c.name} /> )
+        content && content?.map((c) => <SingleContent key={c.id} id={c.id} url={c.image} title={c.title} /> )
       }
       </div>
       <div className='uparrow'>
