@@ -24,7 +24,8 @@ const Detail = ({id, title,img ,subtitle, start ,end, rating ,ageRating }) => {
         {showmodel && <MyModel />}
       </div>
       <div className="detail__content-title">
-        <h1>{title}</h1>
+        <h1 onClick={() => setShowModel(true)}>{title}</h1>
+        {showmodel && <MyModel />}
       </div>
       <div className="detail__content-date">
         <div className="detail__content-date__startdate">
