@@ -9,7 +9,7 @@ const TopRated = () => {
   const [content,setContent] = useState([]);
 
   const fetchData = async () => {
-    const {data} = await axios.get (`https://kitsu.io/api/edge/anime`);
+    const {data} = await axios.get (`https://kitsu.io/api/edge/trending/anime`);
 
     setContent(data.data);
 
