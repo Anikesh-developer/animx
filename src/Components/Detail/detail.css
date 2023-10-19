@@ -11,6 +11,9 @@
     align-items: center;
     color: #BAFF39;
 }
+.detail__content-title h1:hover {
+    color: black;
+}
 .detail__content-img img {
     width: 20vw;
     cursor: pointer;
